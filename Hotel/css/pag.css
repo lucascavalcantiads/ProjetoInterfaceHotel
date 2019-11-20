@@ -1,0 +1,1090 @@
+
+/*Comando para colocarmos acentuação*/
+@charset "UTF-8";
+@font-face{
+    font-family: 'Lato';
+    src: url(../font/Lato-Regular.ttf);
+
+}
+
+body{
+    margin: 0px;
+    height: 3185;
+    width: 1366px;
+}
+
+div#box_fundo_menu{
+    position: absolute;
+    top: 13px;
+    left: 42px;
+    width: 1283px;
+    height: 74px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 3px 16px #0000001A;
+    border-radius: 8px;
+    opacity: 0.98;
+}
+
+div#txt_inicio{
+    position: absolute;
+    top: 41px;
+    left: 615px;
+    width: 38px;
+    height: 19px;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #9A9A9A;
+    opacity: 1;
+}
+
+div#txt_inicio1{
+    position: absolute;
+    top: 41px;
+    left: 615px;
+    width: 38px;
+    height: 19px;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #9A9A9A;
+    opacity: 1;
+}
+
+
+div#txt_quartos{
+    position: absolute;
+    top: 41px;
+    left: 677px;
+    width: 54px;
+    height: 19px;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #9A9A9A;
+    opacity: 1;
+}
+    div#txt_hotel{
+        position: absolute;
+        top: 41px;
+        left: 755px;
+        width: 50px;
+        height: 19px;
+        text-align: center;
+        font-size:16px;
+        font-family: 'Lato';
+        font-weight: bold;
+        letter-spacing: 0;
+        color: #9A9A9A;
+        opacity: 1;
+    }
+
+    div#txt_promocoes{
+        position: absolute;
+        top: 41px;
+        left: 829px;
+        width: 79px;
+        height: 19px;
+        text-align: center;
+        font-size:16px;
+        font-family: 'Lato';
+        font-weight: bold;
+        letter-spacing: 0;
+        color: #9A9A9A;
+        opacity: 1;
+    }
+
+    div#txt_localizacao{
+        position: absolute;
+        top: 41px;
+        left: 932px;
+        width: 78px;
+        height: 19px;
+        text-align: center;
+        font-size:16px;
+        font-family: 'Lato';
+        font-weight: bold;
+        letter-spacing: 0;
+        color: #9A9A9A;
+        opacity: 1;
+    }
+
+    div#txt_contato{
+        position: absolute;
+        top: 41px;
+        left: 1034px;
+        width: 55px;
+        height: 19px;
+        text-align: center;
+        font-size:16px;
+        font-family: 'Lato';
+        font-weight: bold;
+        letter-spacing: 0;
+        color: #9A9A9A;
+        opacity: 1;
+    }
+
+    div#box_reserva{
+        position: absolute;
+        top: 35px;
+        left: 1113px;
+        width: 114px;
+        height: 31px;
+        background: #F16136;
+        border-radius: 19px;
+        opacity: 1;
+    }
+
+    div#txt_reserva{
+        position: absolute;
+        top: 39px;
+        left: 1137px;
+        width: 64px;
+        height: 19px;
+        text-align: center;
+        font-size:16px;
+        font-family: 'Lato';
+        font-weight: bold;
+        letter-spacing: 0;
+        color: white;
+        opacity: 1;
+    }
+
+
+
+img#fundodiv{
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 750px;
+}
+
+img#logo{
+    position: absolute;
+    top: 17px;
+    left: 139px;
+    width: 62px;
+    height: 65px;
+}
+
+div#intermediario{
+    position: absolute;
+    background-color: white;
+    font-family: 'Lato';
+    top: 182px;
+    left: 306px;
+    width: 272px;
+    height: 403px;
+    border-radius:10px;
+}
+
+img#fundointermediario{
+    font-family: 'Lato';
+    position: absolute;
+    left:375.1px;
+    top:201px;
+    border-bottom: 1px black;
+}
+
+div#cidade{
+    font-family: 'Lato';
+    color: #707070;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    left:396.85px;
+    top:271.76px;
+    height:12px;
+    width:90px;    
+    text-align: center;
+}
+
+div#linha{
+    position: absolute;
+    top: 299px;
+    left: 317px;
+    width: 250px;
+    height: 2px;
+    background: #E6E6E6;
+    opacity: 1;
+
+}
+
+div#info_intermediario{
+    color: #707070;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight:bold;
+    position: absolute;
+    left:334.67px;
+    top:324px;
+    height:65px;
+    width:215px;
+    text-align: center;
+
+}
+
+div#reserva1_box{
+    position: absolute;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 2;
+    text-align: center;
+    top: 399px;
+    left: 321px;
+    width: 242px;
+    height: 37px;   
+    border-color: #707070;
+    border-radius: 19px;
+    background: #F16136;
+}
+
+div#reserva1_txt{
+    position: absolute;
+    color:white;
+    font-family: 'Lato';
+    font-size: 15.5px;
+    font-weight: 2;
+    text-align: center;
+    top: 406px;
+    left: 386px;
+    width: 108px;
+    height: 19px;   
+    border-color: #707070;
+    border-radius: 19px;
+    background-color:#F16136;
+    letter-spacing: 0;
+
+}
+
+div#conheca_box{
+    position: absolute;
+    top: 446px;
+    left: 321px;
+    width: 242px;
+    height: 37px;   
+    border: 1px solid #9A9A9A;
+    border-radius: 19px;
+    opacity: 1;
+}
+
+div#conheca_txt{
+    position: absolute;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    top: 453px;
+    left: 381px;
+    width: 118px;
+    height: 19px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #9A9A9A;
+    opacity: 1;
+}
+
+div#booking_box{
+    background: url("../Imagens/booking.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 493px;
+    left: 319px;
+    width: 117px;
+    height: 80px;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+div#trip_box{
+    background: url("../Imagens/trip.JPG");
+    background-repeat:no-repeat;
+    background-position:center;    
+    position: absolute;
+    top: 493px;
+    left: 444px;
+    width: 117px;
+    height: 80px;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+div#role{
+    position: absolute;
+    top: 695px;
+    left: 1017px;
+    width: 120px;
+    height: 19px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#info1{
+    position: absolute;
+    top: 809px;
+    left: 378px;
+    width: 710px;
+    height: 128px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 6.4px;
+    color: #BABABA;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+div#churrasqueira{
+    background: url("../Imagens/CHURRASQUEIRA.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 912px;
+    left: -28px;
+    width: 394px;
+    height: 381px;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    box-shadow: 0px 21px 16px #00000029;
+    opacity: 1;
+}
+
+div#box_seta{
+    position: absolute;
+    background-image: url("../Imagens/seta_esq.jpg");
+    top: 1079px;
+    left: 0px;
+    width: 45px;
+    height: 47px;
+    opacity: 1;
+
+}
+
+div#cafe{
+    position: absolute;
+    background: url("../Imagens/CAFE.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 912px;
+    left: 383px;
+    width: 394px;
+    height: 381px;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    box-shadow: 0px 23px 16px #00000029;
+    opacity: 1;
+}
+
+div#piscina{
+    position: absolute;
+    background: url("../Imagens/PISCINA.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 912px;
+    left: 794px;
+    width: 394px;
+    height: 381px;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    box-shadow: 0px 23px 16px #00000029;
+    opacity: 1;
+}
+
+div#reserva_int{
+    position: absolute;
+    text-align: center;
+    top: 912px;
+    left: 1205px;
+    width: 395px;
+    height: 381px;
+    background: #F16136;
+    box-shadow: 0px 21px 16px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+div#reserva_int_txt{ /*NÃO ESTA APARENCENDO TEXTO*/
+    position:absolute;
+    top: 1020px;
+    left: 1180px;
+    width: 264px;   
+    height: 28px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color:white;
+    opacity: 1; 
+}
+
+div#reserva_int_txt1{
+    position: absolute;
+    top: 1084px;
+    left: 1278px;
+    width: 236px;
+    height: 57px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    /*font-weight: bold;*/
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1; 
+}
+
+div#reserva_int_txt2{/*NÃO ESTA APARENCENDO TEXTO*/
+    position: absolute;
+    top: 1193px;
+    left: 1332px;
+    width: 74px;
+    height: 19px;
+    text-align: center;
+    font-family:'Lato';
+    font-weight: bold;
+    font-size:16px;
+    letter-spacing: 0;
+    color: #F16136;
+    opacity: 1; 
+}
+
+div#reserva_int_box{
+    position:absolute;
+    top: 1186px;
+    left: 1282px;
+    width: 242px;   
+    height: 37px;
+    background: #FFFFFF;
+    border-radius: 19px;
+    opacity: 1; 
+}
+
+div#quartos_txt{
+    position: absolute;
+    top: 1338px;
+    left: 607px;
+    width: 138px;
+    height: 46px;
+    text-align: left;
+    font-family: 'Lato';
+    font-size:38px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #F16136;
+    opacity: 1;
+} 
+
+div#wifi{
+    position: absolute;
+    top: 1389px;
+    left: 564px;    
+    width: 238px;
+    height: 17px;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size:14px;
+    letter-spacing: 0;
+    color: #BABABA;
+    opacity: 1;
+} 
+
+div#duplo{ 
+    background: url("../Imagens/DUPLO.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 1428px;
+    left: 0px;
+    width: 694px;
+    height: 448px;
+    border: 1px solid #707070;
+    opacity:1;
+}
+
+div#duplo_rec{
+    position: absolute;
+    top: 1428px;
+    left: 0px;
+    width: 694px;
+    height: 448px;
+    background: #000000;
+    border: 1px solid #707070;
+    opacity:0.3;
+}
+
+div#duplo_txt1{
+    position: absolute;
+    top: 1704px;
+    left: 270px;
+    width: 170px;
+    height: 20px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 32px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#duplo_txt2{
+    position: absolute;
+    top: 1745px;
+    left: 224px;
+    width: 270px;
+    height: 16px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+   
+}
+    
+div#duplo_txt_box{
+    position: absolute;
+    top: 1780px;    
+    left: 264px;
+    width: 165px;
+    height: 37px;
+    border: 1px solid #FFFFFF;
+    border-radius: 19px;
+    opacity: 1;
+
+   
+}
+
+div#duplo_txt3{
+    position: absolute;
+    top: 1787px;
+    left: 309px;
+    width: 90px;
+    height: 170px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size:16px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+   
+}
+
+div#triplo{ 
+    background: url("../Imagens/TRIPLO.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 1428px;
+    left: 683px;
+    width: 694px;
+    height: 448px;
+    border: 1px solid #707070;
+    opacity:1;
+}
+
+div#triplo_rec{
+    position: absolute;
+    top: 1428px;
+    left: 683px;
+    width: 694px;
+    height: 448px;
+    background: #000000;
+    border: 1px solid #707070;
+    opacity:0.3;
+}
+
+div#triplo_txt1{
+    position: absolute;
+    top: 1707px;
+    left: 955px;
+    width:  170px;
+    height: 39px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size:32px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#triplo_txt2{
+    position: absolute;
+    top: 1745px;
+    left: 907px;
+    width: 270px;
+    height: 19px;
+    width: 270px;
+    height: 16px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+   
+}
+
+div#triplo_txt_box{
+    position: absolute;
+    text-align: center;
+    top: 1780px;
+    left: 960px;
+    width: 165px;
+    height: 37px;
+    border: 1px solid white;
+    border-radius: 19px;
+    opacity: 1;
+   
+}
+
+div#triplo_txt3{
+    position: absolute;
+    top: 1787px;
+    left: 960px;
+    width:  170px;
+    height: 19px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size:16px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+   
+}
+
+
+div#seta_dir{
+    background: url("../Imagens/seta_dir.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 1662px;
+    left: 1305px;
+    width: 45px;
+    height: 47px;
+    opacity: 1;
+}
+
+div#seta_esq{
+    background: url("../Imagens/seta_esq.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 1662px;
+    left: 0px;
+    width: 45px;
+    height: 47px;
+    opacity: 1;
+}
+
+div#quartos_box{
+    position: absolute;
+    top: 1898px;
+    left: 562px;
+    width: 242px;
+    height: 37px;
+    border: 1px solid #9A9A9A;
+    border-radius: 19px;
+    opacity: 1;
+}
+
+div#quartos_txt1{
+    position: absolute;
+    top: 1905px;
+    left: 608px;
+    width: 146px;
+    height: 19px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #9A9A9A;
+    opacity: 1;
+}
+
+div#box_inferior{
+    position: absolute;
+    top: 1986px;
+    left: 0px;
+    width: 1366px;  
+    height: 595px;
+    background: #F0F0F0;
+    opacity: 1;
+}
+
+div#img_hotel{
+    position: absolute;
+    top: 1957px;
+    left: 164px;
+    width: 375px;
+    height: 379px;
+    background:url("../Imagens/FACHADA.png");
+    opacity: 1;
+}
+
+div#img_hotel_box{
+    position: absolute;
+    top: 2336px;
+    left: 164px;
+    width: 375px;
+    height: 203px;
+    background: #272729;
+    border-radius: 0px 0px 6px 6px;
+    opacity: 1;
+    
+}
+
+div#img_hotel_txt{
+    position: absolute;
+    top: 2364px;
+    left: 193px;
+    width: 317px;
+    height: 134px;
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #EFEFEF;
+    opacity: 1;
+    
+}
+
+div#img_cristo{
+    position: absolute;
+    background:url("../Imagens/IMAGEM11.png");
+    top: 2101px;
+    left: 582px;
+    width: 252px;
+    height: 409px;
+    opacity: 1;
+
+}
+
+div#img_carnaval{
+    position: absolute;
+    background:url("../Imagens/IMAGEM12.png");
+    background-position-x: right;
+    top: 2101px;
+    left: 856px;
+    width: 347px;
+    height: 409px;
+    opacity: 1;
+}
+
+div#promo_txt{
+    position: absolute;
+    top: 2012px;
+    left: 581px;
+    width: 189px;
+    height: 46px;
+    text-align: left;
+    font-size:38px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #F16136;
+    opacity: 1;
+
+}
+
+div#promo_info_txt{
+    position: absolute;
+    top: 2059px;
+    left: 582px;
+    width: 600px;
+    height: 17px;
+    text-align:left;
+    font-size: 14px;
+    font-family:'Lato';
+    letter-spacing: 0;
+    color: #BABABA;
+    opacity: 1;
+}
+
+div#seta_dir1{
+    background: url("../Imagens/seta_dir.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 2293px;
+    left: 1158px;
+    width: 45px;
+    height: 47px;
+    opacity: 1;
+}
+
+div#seta_esq1{
+    background: url("../Imagens/seta_esq.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 2293px;
+    left: 582px;
+    width: 45px;
+    height: 47px;
+    opacity: 1;
+}
+
+div#box1_inf{
+    position: absolute;
+    top: 2855px;
+    left: 0px;
+    width: 1366px;
+    height: 327px;
+    background: #272729;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+div#box2_inf{
+    position: absolute;
+    top: 2988px;
+    left: 0px;
+    width: 1366px;
+    height: 186px;
+    background: #373738;
+    opacity: 1;
+}
+
+div#img_mapa{
+    position: absolute;
+    background: url("../Imagens/mapa.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 2570px;
+    left: 96px;
+    width: 1174px;
+    height: 339px;
+    box-shadow: 0px 10px 40px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    
+}
+
+div#endereco{
+    position: absolute;
+    top: 2947px;
+    left: 351px;
+    width: 376px;
+    height: 19px;
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+div#box_rota{
+    position: absolute;
+    top: 2938px;
+    left: 802px;
+    width: 242px;
+    height: 37px;
+    background: #F16136;
+    border-radius: 19px;
+    opacity: 1;
+}
+
+div#txt_rota{
+    position: absolute;
+    top: 2945px;
+    left: 839px;
+    width: 164px;
+    height: 19px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#box_logo_inf{
+    position: absolute;
+    top: 3017px;
+    left: 328px;
+    width: 165px;
+    height: 119px;
+    background: #FFFFFF;
+    border-radius: 11px;
+    opacity: 1;
+}
+
+div#img_logo_inf{
+    position: absolute;
+    background: url("../Imagens/IMAGE07.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 3041px;
+    left: 345px;
+    width: 130px;
+    height: 72px;
+
+}
+
+div#txt_menu1{
+    position: absolute;
+    top: 3040px;
+    left: 583px;
+    width: 56px;
+    height: 15px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 3.6px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu2{
+    position: absolute;
+    top: 3070px;
+    left: 582px;
+    width: 120px;
+    height: 15px;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 3.6px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu3{
+    position: absolute;
+    top: 3099px;
+    left: 582px;    
+    width: 105px;
+    height: 12px;
+    text-align: left;
+    font-size:12px;
+    font-family: 'Lato';
+    letter-spacing: 3.6px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu4{
+    position: absolute;
+    top: 3040px;
+    left: 735px;
+    width: 57px;
+    height: 12px;   
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 3.6px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu5{
+    position: absolute;
+    top: 3070px;
+    left: 735px;
+    width: 118px;
+    height: 15px;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 3.6px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu6{
+    position: absolute;
+    top: 3099px;
+    left: 735px;
+    width: 78px;
+    height: 15px;
+    text-align: left;   
+    font-size:12px;
+    font-family: 'Lato';
+    letter-spacing: 3.6px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu7{
+    position: absolute;
+    top: 3046px;
+    left: 917px;
+    width: 42px;
+    height: 10px;
+    text-align: left;   
+    font-size: 8px;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu8{
+    position: absolute;
+    top: 3059px;
+    left: 917px;
+    width: 311px;
+    height: 34px;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Lato';
+    letter-spacing: 1.76px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu9{
+    position: absolute;
+    top: 3093px;
+    left: 917px;
+    width: 39px;
+    height: 10px;
+    text-align: left;
+    font-size: 9px;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+div#txt_menu10{
+    position: absolute;
+    top: 3103px;
+    left: 917px;
+    width: 277px;
+    height: 28px;   
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+

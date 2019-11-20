@@ -1,0 +1,47 @@
+
+/*Comando para colocarmos acentuação*/
+@charset "UTF-8";
+
+body{  
+}
+
+/*
+nav#menu{
+    background:url("Imagens/IMAGE 7.png") no-repeat -20px 30px;
+    color: black;
+}
+*/
+/*
+
+div#interface {
+    width: 1100px;
+    position: absolute;
+    background-color: black;
+    margin: 0px auto 0px auto;
+    box-shadow:0px 0px 15px grey;
+    padding: 10px ;
+    color: black;
+}
+
+header#cabecalho img#icone{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 750px;
+    top: 50px;
+    border-radius: 500px;
+    box-shadow: 1px 1px 5px black;
+    color: black;
+}
+
+
+header#cabecalho ul{
+    height: 150px;
+    background:url("Imagens/IMAGE 7.png") no-repeat -20px 30px;
+    color: black;
+}
+*/
+header#cabecalho nav#menu{/*Configuração da lista*/
+   color: red;
+}
+

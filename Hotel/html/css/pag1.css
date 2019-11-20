@@ -1,0 +1,48 @@
+/*Formatação de imagens com legendas*/
+body{
+    margin: 0;
+}
+#menu{
+    margin: 0px;
+    
+}
+#menu ul{
+    background: url(Imagens/IMAGEM03.png);
+    float: left;
+    top:30px;
+    left:300px;
+    border-radius: 10px;
+    position: fixed;
+    width: 60%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    list-style: none;
+    
+}
+ 
+#menu ul figure{
+    display: inline;
+    width: 60%;
+    height: 70px;
+    margin: 0;
+    top:0px;
+    left:0px;
+                   
+}
+
+#menu ul li{
+    display: inline;
+    
+    }
+
+#menu ul li a {
+    padding:0px 10px;/*Da uma dist de itens*/
+    display: inline-block;
+    font-size: 20px ;
+    font-style: normal;
+    color: grey;
+    text-decoration: none;
+
+}
